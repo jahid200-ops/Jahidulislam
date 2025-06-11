@@ -1,6 +1,6 @@
 import telebot import time from indicators import check_trade_signal from utils import fetch_data, get_status_msg import os
 
-API_KEY = os.getenv("TELEGRAM_API_KEY", "8136437526:AAFSB--egH92xenrd-h__xUxzd6meKP5mUk") CHAT_ID = int(os.getenv("TELEGRAM_CHAT_ID", 7872392779))
+API_KEY = os.getenv-h__xUxzd6meKP5mUk") CHAT_ID = int(os.getenv("TELEGRAM_CHAT_ID", 7872392779))
 
 bot = telebot.TeleBot(API_KEY)
 
